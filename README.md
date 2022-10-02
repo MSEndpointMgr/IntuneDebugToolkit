@@ -22,9 +22,6 @@ VLOG on how to rerun win32 apps here and now:
 - added Proactive remediation reader, Win32AppRedeploy and Intune RSOP [Andrew](https://www.powershellgallery.com/packages/IntuneStuff/1.1.7 "Andrew"))
 - rebranded and created as a solution on MSEndpointMgr site.
 
-Demo of eventlog tracker
-![alt text](https://github.com/mmelkersen/EndpointManager/blob/main/Intune%20Debug%20Tools/Content/IntuneDebug1.5.gif)
-
 ---
 
 ### Version 1.5
@@ -41,9 +38,6 @@ This tool will reveal any issues written to the eventlog. Events followed:
 - Microsoft-Windows-User Device Registration/Admin
 
 A big thanks to [David Segura](https://twitter.com/SeguraOSD "David Segura") OSDCloud where this code is from.
-
-Demo of eventlog tracker
-![alt text](https://github.com/mmelkersen/EndpointManager/blob/main/Intune%20Debug%20Tools/Content/IntuneDebug1.5.gif)
 
 ---
 
@@ -64,9 +58,6 @@ Get more information about the tool [Here](https://github.com/petripaavola/Intun
 This tool is able to present the SyncML protocol stream between the Windows 10 client and management system. In addition it does some extra parsing to extract details and make the analyzing a bit easier.
 The tool uses ETW to trace the MDM Sync session. In general the tool can be very handy to troubleshoot policy issues. Tracing what the client actually sends and receives provides deep protocol insights.
 It makes it easy to get confirmation about queried or applied settings. Happy tracing!
-
-Demo of SyncMLViewer
-![alt text](https://github.com/mmelkersen/EndpointManager/blob/main/Intune%20Debug%20Tools/Content/Intune%20debug%201.3.gif)
 
 Get more information about the tool [Here](https://github.com/okieselbach/SyncMLViewer "Oliver Kieselbach Github")
 
