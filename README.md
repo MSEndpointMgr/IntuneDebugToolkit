@@ -1,11 +1,10 @@
 # IntuneDebugToolkit
 
-# What is the Intune Debug Tool?
-
 Please go and visit MSEndpointMgr -> solutions -> Intune Debug Toolkit
 
 ***
 
+Here is a demo of how I use the Win32 rerun tool. Pssssttt there are a description of all the other tools on the MSEndpointMgr Site!
 VLOG on how to rerun win32 apps here and now:
 
 [![Rerun win32 apps](https://github.com/mmelkersen/EndpointManager/blob/main/Intune%20Debug%20Tools/Content/hqdefault.jpg)](https://www.youtube.com/watch?v=gHG84MKE5O4 "Rerun Win32 apps")
