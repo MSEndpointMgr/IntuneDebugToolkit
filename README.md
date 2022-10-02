@@ -1,6 +1,7 @@
 # IntuneDebugToolkit
 
 Please go and visit MSEndpointMgr -> solutions -> Intune Debug Toolkit
+or simply click here! https://msendpointmgr.com/intune-debug-toolkit/
 
 ***
 
