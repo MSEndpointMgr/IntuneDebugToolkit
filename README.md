@@ -1,3 +1,12 @@
+---
+Title: Intune Debug Toolkit
+Authors: Mattias Melkersen
+Owner: Mattias Melkersen
+Date: 01.10.2022
+Description: Toolbox to troubleshoot areas of clients managed by Intune
+---
+    [![HitCount](https://hits.dwyl.com/MSEndpointMgr/IntuneDebugToolkit.svg?style=flat)](http://hits.dwyl.com/MSEndpointMgr/IntuneDebugToolkit)
+
 # IntuneDebugToolkit
 
 Please go and visit MSEndpointMgr -> solutions -> Intune Debug Toolkit
