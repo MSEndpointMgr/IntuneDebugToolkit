@@ -3,6 +3,7 @@ Title: Intune Debug Toolkit
 Authors: Mattias Melkersen
 Owner: Mattias Melkersen
 Date: 01.10.2022
+Modified: 24.09.2023
 Description: Toolbox to troubleshoot areas of clients managed by Intune
 ---
 
@@ -22,6 +23,16 @@ VLOG on how to rerun win32 apps here and now:
 
 
 # History
+
+### Version 2.2 (24-09-2023)
+- Updated AutopilotPrerequisites from 1.6 to 1.8.2
+- Community request: Made it possible to hide shortcuts from startmenu with a property. Set property DISABLESTARTMENUSHORTCUTS=1 on commandline to hide shortcuts. You can always go to C:\Program Files\MSEndpointMgr Shortcuts and execute them from there.
+- Digital signed the MSI 2.2 package with a Digisign codesign certificate.
+- Added Petri Paavola’s script Get-IntuneManagementExtensionDiagnostics to the project
+- Added “Debug like Microsoft” which is a very extended version of the gather log from Intune. The information gathered by this function is massive, and you will be happy to use this one!
+- Added easier debug functionality in Autopilot and ESP.
+
+---
 
 ### Version 2.0
 - updated SyncMLViewer from v1.0.7 to v1.0.8 (Read more about the changes here [Oliver's github](https://github.com/okieselbach/SyncMLViewer "Oliver Kieselbach"))
