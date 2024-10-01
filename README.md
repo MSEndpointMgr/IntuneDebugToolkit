@@ -3,7 +3,7 @@ Title: Intune Debug Toolkit
 Authors: Mattias Melkersen
 Owner: Mattias Melkersen
 Date: 01.10.2022
-Modified: 24.09.2023
+Modified: 01.10.2024
 Description: Toolbox to troubleshoot areas of clients managed by Intune
 ---
 
@@ -23,6 +23,14 @@ VLOG on how to rerun win32 apps here and now:
 
 
 # History
+
+### Version 2.3 (01-10-2024)
+- Fixed a bug where Debug Autopilot shortcut didn't launch.
+- Updated IntuneDeviceDetailsGUI_2.95 to IntuneDeviceDetailsGUI_3.00.
+- Updated advanced troubleshooting to ask for admin privileges.
+- Updated SyncMLViewer to latest version 1.3.1.0.
+- Added CMTrace for better log tracing.
+- Added a new tool to import device to corporate identifier to use with ADE from Rafał Zimonczyk (Read more about the changes here [Rafał's GitHub](https://github.com/rafallz10100/AutopilotV2 "Rafał Zimonczyk")).
 
 ### Version 2.2 (24-09-2023)
 - Updated AutopilotPrerequisites from 1.6 to 1.8.2
