@@ -3,7 +3,7 @@ Title: Intune Debug Toolkit
 Authors: Mattias Melkersen
 Owner: Mattias Melkersen
 Date: 01.10.2022
-Modified: 01.10.2024
+Modified: 16.09.2026
 Description: Toolbox to troubleshoot areas of clients managed by Intune
 ---
 
@@ -16,13 +16,17 @@ or simply click here! https://msendpointmgr.com/intune-debug-toolkit/
 
 ***
 
-Here is a demo of how I use the Win32 rerun tool. Pssssttt there are a description of all the other tools on the MSEndpointMgr Site!
-VLOG on how to rerun win32 apps here and now:
-
-[![Rerun win32 apps](https://github.com/mmelkersen/EndpointManager/blob/main/Intune%20Debug%20Tools/Content/hqdefault.jpg)](https://www.youtube.com/watch?v=gHG84MKE5O4 "Rerun Win32 apps")
-
-
 # History
+
+### Version 3.0 (Latest)
+- Complete architectural overhaul: re-worked from scattered scripts and shortcuts into a real application with a built-in window, replacing the old shortcut-based launcher.
+- Built on Avalonia (.NET 8) with a modern dark interface.
+- Introduced a tabbed interface for managing multiple tool outputs simultaneously.
+- Re-verified every bundled tool against current Intune Management Extension and Windows Update log formats; several legacy log parsers were completely rewritten.
+- Cleaned up tooling that wasn't widely used or useful for troubleshooting.
+- Read more about the changes [here](https://msendpointmgr.com/intune-debug-toolkit/#updates "MSEndpointMgr").
+
+---
 
 ### Version 2.3 (01-10-2024)
 - Fixed a bug where Debug Autopilot shortcut didn't launch.
